@@ -1,0 +1,29 @@
+{
+  "name": "korepetitoriai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write",
+    "backup:db": "node scripts/backup-db.mjs"
+  },
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.18.1",
+    "@supabase/ssr": "^0.12.5",
+    "@supabase/supabase-js": "^2.105.1",
+    "next": "16.2.12",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "babel-plugin-react-compiler": "1.0.0",
+    "pg": "^8.23.0",
+    "tailwindcss": "^4.3.3"
+  }
+}

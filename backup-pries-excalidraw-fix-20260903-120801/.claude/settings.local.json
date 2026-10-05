@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --no-install next build)",
+      "mcp__claude_ai_Supabase__list_projects",
+      "mcp__claude_ai_Supabase__list_tables",
+      "mcp__claude_ai_Supabase__execute_sql",
+      "mcp__claude_ai_Supabase__apply_migration",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(git mv *)",
+      "Bash(rmdir backend/migrations)",
+      "Bash(rmdir backend *)",
+      "Bash(npx --yes esbuild --bundle=false --loader:.jsx=jsx src/components/LanguageProvider.jsx src/features/tutors/TutorsPage.jsx src/features/lessons/LessonsPage.jsx src/features/messages/MessagesPage.jsx src/features/lessons/LessonDetailModal.jsx --outdir=/tmp/_check)",
+      "Bash(npx esbuild *)"
+    ]
+  }
+}
